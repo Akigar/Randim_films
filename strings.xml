@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MainFilm</string>
+    <string-array name="films">
+        <item>One House</item>
+        <item>War</item>
+        <item>Time</item>
+        <item>Grinch</item>
+        <item>Spider man</item>
+        <item>Batmen</item>
+    </string-array>
+</resources>
