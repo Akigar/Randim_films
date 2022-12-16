@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/films" />
+    <Button
+        android:id="@+id/watch"
+        android:onClick="onClick_watch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="watch a film" />
+
+    <Button
+        android:id="@+id/next"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next film" />
+    <Button
+        android:id="@+id/reset"
+        android:onClick="onClick_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset the list" />
+
+
+
+</LinearLayout>
